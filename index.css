@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sectionOne {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.container .left {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 500px; */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.container .left h5 {
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(52, 63, 82);
+}
+
+.container .left h1 {
+    font-weight: 700;
+    font-size: 42px;
+    color: rgb(52, 63, 82);
+    line-height: 50px;
+}
+
+.container .left p {
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(33, 38, 48);
+    line-height: 31px;
+}
+
+.container .left .btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20PX;
+    width: 50%;
+}
+
+button {
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: 500;
+    color: white;
+    background-color: #252D6C;
+    border-radius: 10px;
+    width: 40%;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.container .left .btns .brochure {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    cursor: pointer;
+    font-size: 17px;
+    color: #3f2c64;
+
+}
+
+.container .left .btns .brochure p {
+    color: #6B5D88;
+    text-decoration: underline;
+}
+
+.container .right img {
+    border-radius: 10px;
+}
+
+#sectionTwo {
+       width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sectionTwo .containerTwo {
+    background-color:white;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#sectionTwo .containerTwo .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+ gap: 20px;
+}
+
+.content h5 {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(96, 105, 123);
+}
+
+.content h1 {
+    font-weight: 700;
+    font-size: 32px;
+    color:  rgb(52, 63, 82);
+}
+
+.content p {
+    font-weight: 100;
+    font-size: 18px;
+    color: rgb(79, 83, 90);
+    line-height: 29px;
+}
+
+#sectionTwo .containerTwo .textIcon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#sectionTwo .containerTwo .textIcon .icon {
+    background-color: #B8D987;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3%;
+    border-radius: 50%;
+    padding: 7px;
+}
+#sectionTwo .containerTwo .textIcon p{
+    line-height: 29px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(79, 83, 90);
+}
+#sectionThree{
+   
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sectionThree .containerThree {
+   
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerThree .cards{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 20px;
+
+}
+.cards .card{
+background-color:#ECEEF3;
+display: flex;
+flex-direction: column;
+gap: 10px;
+border-radius: 10px;
+text-align: center;
+padding: 15px;
+}
+.cards .card .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards .card h1{
+    line-height: 35px;
+    font-size: 24px;
+    font-weight: 700;
+    color:  rgb(37, 45, 108); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards .card p{
+    line-height: 29px;
+    font-size: 17px;
+    font-weight: 100;
+    color:  rgb(33, 38, 48);
+}
+
+
+
+#sectionTwo {
+       width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sectionTwo .containerTwo {
+    background-color:white;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#sectionTwo .containerTwo .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+ gap: 20px;
+}
+
+.content h5 {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(96, 105, 123);
+}
+
+.content h1 {
+    font-weight: 700;
+    font-size: 32px;
+    color:  rgb(52, 63, 82);
+}
+
+.content p {
+    font-weight: 100;
+    font-size: 18px;
+    color: rgb(79, 83, 90);
+    line-height: 29px;
+}
+
+#sectionTwo .containerTwo .textIcon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#sectionTwo .containerTwo .textIcon .icon {
+    background-color: #B8D987;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3%;
+    border-radius: 50%;
+    padding: 7px;
+}
+#sectionTwo .containerTwo .textIcon p{
+    line-height: 29px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(79, 83, 90);
+}
+#sectionThree{
+   
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sectionThree .containerThree {
+   
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerThree .cards{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 20px;
+
+}
+.cards .card{
+background-color:#ECEEF3;
+display: flex;
+flex-direction: column;
+gap: 10px;
+border-radius: 10px;
+text-align: center;
+padding: 15px;
+}
+.cards .card .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards .card h1{
+    line-height: 35px;
+    font-size: 24px;
+    font-weight: 700;
+    color:  rgb(37, 45, 108); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards .card p{
+    line-height: 29px;
+    font-size: 17px;
+    font-weight: 100;
+    color:  rgb(33, 38, 48);
+}
+#sectionFour {
+    width: 100%;
+ min-height: 700px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#sectionFour .containerFour {
+ background-color:white;
+ width: 70%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+
+#sectionFour .containerFour .contentTwo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+ gap: 20px;
+}
+
+
+.contentTwo h1 {
+    font-weight: 700;
+    font-size: 32px;
+    color:  rgb(52, 63, 82);
+}
+.contentTwo p {
+    font-weight: 100;
+    font-size: 18px;
+    color: rgb(79, 83, 90);
+    line-height: 29px;
+}
+
+.textIconTwo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+ .textIconTwo .iconTwo {
+    background-color: #B8D987;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3%;
+    border-radius: 50%;
+    padding: 7px;
+}
+ .textIconTwo p{
+    line-height: 29px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(79, 83, 90);
+}
+
+
+#sectionFive {
+       width: 100%;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3F1F1;
+}
+
+#sectionFive .containerFive {
+    
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#sectionFive .containerFive .contentThree {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+ gap: 20px;
+}
+.contentThree h3 {
+font-size: 14px;
+font-weight: 500;
+color: rgb(96, 105, 123);
+}
+.contentThree h1{
+font-size: 32px;
+font-weight: 700;
+color: rgb(52, 63, 82);
+line-height: 40px;
+}
+.contentThree p{
+   font-size: 17px;
+font-weight: 100;
+color: rgb(52, 63, 82);
+line-height: 29px; 
+}
+
+
+
